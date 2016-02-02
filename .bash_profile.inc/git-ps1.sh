@@ -1,9 +1,6 @@
 #  Customize BASH PS1 prompt to show current GIT repository and branch.
 #  by Mike Stewart - http://MediaDoneRight.com
 
-# Add __git_ps1
-source /usr/local/etc/bash_completion.d/git-prompt.sh
-
 # Reset
 Color_Off="\[\033[0m\]"       # Text Reset
 
