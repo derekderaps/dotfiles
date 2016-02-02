@@ -1,0 +1,137 @@
+"*":
+  "atom-pair": {}
+  "autocomplete-plus":
+    fileBlacklist: [
+      "*.md"
+    ]
+    useCoreMovementCommands: false
+  autosave:
+    enabled: true
+  "character-table": {}
+  "clip-history": {}
+  "clipboard-plus": {}
+  "coffee-compile": {}
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "atom-pair"
+      "travis-ci-status"
+      "go-to-line"
+      "encoding-selector"
+      "markdown-preview-opener"
+      "global-shortcuts"
+      "swift-debugger"
+      "foobar"
+      "paner"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/mediacurrent/code"
+    themes: [
+      "native-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  "cursor-history":
+    flashOnLand: true
+  editor:
+    backUpBeforeSaving: true
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "62fefddf-2618-5de1-03e0-b20d1301ac06"
+  "gfm-pdf": {}
+  gist:
+    token: "0928ee97409297b5b641d063a5b70060adde0619"
+  "gist-it":
+    newGistsDefaultToPrivate: true
+  glist:
+    githubToken: "**********"
+  "language-markdown": {}
+  linter:
+    errorPanelHeight: 22
+    lintOnFly: false
+    showErrorTabProject: false
+    statusIconScope: "File"
+  "linter-drupalcs":
+    executablePath: "/usr/local/bin/phpcs"
+    ignore: "*.features.field_base.inc,*.features.field_instance.inc,*.features.inc"
+  "linter-phpcs":
+    autoConfigSearch: false
+    codeStandardOrConfigFile: "/usr/local/etc/php-code-sniffer/Standards/Drupal"
+    executablePath: "/usr/local/bin/phpcs"
+    ignore: "*.features.field_base.inc,*.features.field_instance.inc,*.features.inc,*/sites/all/modules/contrib/*"
+    tabWidth: 2
+  "markdown-deluxe":
+    width: "50em"
+  "markdown-pdf": {}
+  "markdown-preview": {}
+  "markdown-preview-opener":
+    closePreviewWhenClosingEditor: true
+  "markdown-preview-plus":
+    pandocRemoveReferences: false
+    useGitHubStyle: true
+  "markdown-table-formatter": {}
+  "markdown-themeable-pdf":
+    enableLinkify: true
+    enableXHTML: true
+  "markdown-writer":
+    fileExtension: ".md"
+    siteEngine: "jekyll"
+  "merge-conflicts": {}
+  minimap:
+    plugins:
+      "git-diff": false
+  "one-dark-ui": {}
+  "php-cs-fixer":
+    executablePath: "/usr/local/bin/php-cs-fixer"
+    showInfoNotifications: true
+  "php-debug":
+    PhpException:
+      CatchableFatalError: false
+      Deprecated: false
+      FatalError: false
+      Notice: false
+      ParseError: false
+      StrictStandards: false
+      UnknownError: false
+      Warning: false
+      Xdebug: false
+  pigments: {}
+  "spell-check": {}
+  term3: {}
+  "tidy-markdown": {}
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  "tree-view-breadcrumb": {}
+  "tree-view-filter":
+    liveUpdate: true
+  "tree-view-finder": {}
+  "tree-view-open-files": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+  "vim-mode-plus":
+    flashOnSearch: false
+    flashOnUndoRedo: true
+    incrementalSearch: true
+    showHoverOnOperate: true
+    showHoverSearchCounter: true
+    useSmartcaseForSearch: true
+    wrapLeftRightMotion: true
+  "vim-surround": {}
+  welcome:
+    showOnStartup: false
+  wrap: {}
+  "yuno-commit": {}
+".gfm.source":
+  editor:
+    softWrapHangingIndent: 1
+".md.text":
+  editor:
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 1
+"source.gfm":
+  editor:
+    softWrap: true

@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "lint": {
+      "no-missing-blank-lines": false,
+      "maximum-line-length": false
+    }
+  }
+}

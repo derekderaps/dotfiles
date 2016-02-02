@@ -1,0 +1,17 @@
+[core]
+  excludesfile = /Users/mediacurrent/.gitignore
+  autocrlf = input
+[user]
+	email = derek.deraps@mediacurrent.com
+[help]
+  autocorrect = 1
+[color]
+  ui = true
+[alias]
+  permission-reset = !git diff -p -R | grep -E \"^(diff|(old|new) mode)\" | git apply
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[branch]
+	autosetuprebase = always

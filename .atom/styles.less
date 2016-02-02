@@ -1,0 +1,36 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+.tree-view {
+
+}
+
+atom-text-editor {
+
+}
+
+atom-text-editor .cursor {
+
+}
+
+// Make markdown table characters monospaced, for formatting.
+atom-text-editor::shadow .table.gfm {
+  font-family: monospace;
+  font-size: smaller;
+}
+
+// Hide scrollbars.
+atom-text-editor .vertical-scrollbar,
+atom-text-editor::shadow .vertical-scrollbar,
+atom-text-editor .horizontal-scrollbar,
+atom-text-editor::shadow .horizontal-scrollbar {
+  opacity: 0;
+  width: 0;
+}
