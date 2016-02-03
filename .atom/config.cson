@@ -42,12 +42,7 @@
   "exception-reporting":
     userId: "62fefddf-2618-5de1-03e0-b20d1301ac06"
   "gfm-pdf": {}
-  gist:
-    token: "0928ee97409297b5b641d063a5b70060adde0619"
-  "gist-it":
-    newGistsDefaultToPrivate: true
-  glist:
-    githubToken: "**********"
+  gist: {}
   "language-markdown": {}
   linter:
     errorPanelHeight: 22
